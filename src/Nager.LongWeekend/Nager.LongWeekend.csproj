@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Tino Hager</Authors>
+    <Company>nager.at</Company>
+    <Description>Calculate LongWeekends</Description>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <LangVersion>12.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IncludeSymbols>true</IncludeSymbols>
+
+    <Nullable>enable</Nullable>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/nager/Nager.LongWeekend</PackageProjectUrl>
+    <PackageTags>LongWeekend</PackageTags>
+
+    <RepositoryUrl>https://github.com/nager/Nager.LongWeekend</RepositoryUrl>
+
+    <TargetFrameworks>net8.0</TargetFrameworks>
+
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>

@@ -31,7 +31,7 @@
   </ItemGroup>
 	
   <ItemGroup>
-    <None Include="..\..\doc\Icons\calendar.png" Pack="true" PackagePath="\" Visible="false" />
+    <None Include="..\..\doc\icons\calendar.png" Pack="true" PackagePath="\" Visible="false" />
   </ItemGroup>
 	
 </Project>

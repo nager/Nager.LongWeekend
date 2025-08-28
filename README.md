@@ -10,7 +10,7 @@ The package is available on [NuGet](https://www.nuget.org/packages/Nager.LongWee
 PM> install-package Nager.LongWeekend
 ```
 
-## Example
+## Usage Examples
 
 ```cs
 var holidays = new HolidayRecord[]

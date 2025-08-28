@@ -1,16 +1,22 @@
 # Nager.LongWeekend
 
-Nager.LongWeekend is an open-source project designed to calculate potential long weekends based on public holidays.
-By providing a list of holidays, it determines where extended weekends are possible.
+**Nager.LongWeekend** is a lightweight, open-source .NET library that helps you calculate potential long weekends based on public holidays.  
+By providing a list of holidays and your defined weekend days, the library determines possible extended weekends — including those that can be created with optional bridge days.  
 
-## Installation
+## ✨ Features  
+- Detects long weekends based on given holiday data.  
+- Supports custom weekend definitions (not just Saturday/Sunday).  
+- Considers bridge days to extend weekends.  
+- Simple API with minimal dependencies.  
+
+## 📦 Installation
 
 The package is available on [NuGet](https://www.nuget.org/packages/Nager.LongWeekend)
 ```powershell
 PM> install-package Nager.LongWeekend
 ```
 
-## Usage Examples
+## 🚀 Usage Examples
 
 ```cs
 var holidays = new HolidayRecord[]

@@ -3,10 +3,10 @@
 Nager.LongWeekend is an open-source project designed to calculate potential long weekends based on public holidays.
 By providing a list of holidays, it determines where extended weekends are possible.
 
-## nuget
+## Installation
 
-The package is available on [nuget](https://www.nuget.org/packages/Nager.LongWeekend)
-```
+The package is available on [NuGet](https://www.nuget.org/packages/Nager.LongWeekend)
+```powershell
 PM> install-package Nager.LongWeekend
 ```
 

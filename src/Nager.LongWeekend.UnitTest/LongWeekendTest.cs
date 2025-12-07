@@ -43,7 +43,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays);
 
-            Assert.AreEqual(1, longWeekends.Count());
+            Assert.HasCount(1, longWeekends);
 
             var firstLongWeekend = longWeekends.First();
 
@@ -97,7 +97,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays);
 
-            Assert.AreEqual(1, longWeekends.Count());
+            Assert.HasCount(1, longWeekends);
 
             var firstLongWeekend = longWeekends.First();
 
@@ -146,7 +146,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays);
 
-            Assert.AreEqual(1, longWeekends.Count());
+            Assert.HasCount(1, longWeekends);
 
             var firstLongWeekend = longWeekends.First();
 
@@ -197,7 +197,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays).ToArray();
 
-            Assert.AreEqual(2, longWeekends.Count());
+            Assert.HasCount(2, longWeekends);
 
             var firstLongWeekend = longWeekends[0];
             firstLongWeekend.Should().BeEquivalentTo(new LongWeekendReport
@@ -254,7 +254,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays);
 
-            Assert.AreEqual(1, longWeekends.Count());
+            Assert.HasCount(1, longWeekends);
 
             var firstLongWeekend = longWeekends.First();
 
@@ -305,7 +305,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays);
 
-            Assert.AreEqual(2, longWeekends.Count());
+            Assert.HasCount(2, longWeekends);
 
             var firstLongWeekend = longWeekends.First();
 
@@ -370,7 +370,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays).ToArray();
 
-            Assert.AreEqual(4, longWeekends.Length);
+            Assert.HasCount(4, longWeekends);
 
             var firstLongWeekend = longWeekends[0];
             firstLongWeekend.Should().BeEquivalentTo(new LongWeekendReport
@@ -441,7 +441,7 @@ namespace Nager.Date.UnitTest.Common
             ILongWeekendCalculator longWeekendCalculator = new LongWeekendCalculator(holidays, weekendDays);
             var longWeekends = longWeekendCalculator.Calculate(availableBridgeDays);
 
-            Assert.AreEqual(0, longWeekends.Count());
+            Assert.HasCount(0, longWeekends);
         }
     }
 }

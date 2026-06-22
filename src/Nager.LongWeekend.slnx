@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Nager.LongWeekend.UnitTest/Nager.LongWeekend.UnitTest.csproj" />
+  <Project Path="Nager.LongWeekend/Nager.LongWeekend.csproj" />
+</Solution>
